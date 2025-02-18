@@ -5,7 +5,7 @@ const mysql = require('mysql2');
 const dbconnection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
+    password: "your_new_password",
     database: "assignment2cloud",
 });
 
