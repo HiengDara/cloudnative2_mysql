@@ -9,7 +9,7 @@ const dbconnection = mysql.createConnection({
     database: "assignment2cloud",
 });
 
-// STEP-2 : ESTABLISH CONNECTION WITH MONGODB DATABASE THROUGH MONGOOSE
+// STEP-2 : ESTABLISH CONNECTION WITH Mysql
 // err is callback function Parameter. ARROW OPERATOR.
 dbconnection.connect((err) => {
     if (err) throw err;
